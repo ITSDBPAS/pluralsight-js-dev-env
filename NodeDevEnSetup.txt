@@ -1,0 +1,39 @@
+1)  Install NodeJs
+	https://nodejs.org
+2)  GitHub
+	a) Create a GitHub Account, http://gitHub.com
+	b) Click on Start a new project
+	c) Click Clone/Download dropdown button to copy content in the Project Repository Name
+	d) Sync the Project Repository to local drive
+		Open a integrated termical console and sync the Project Repository to local project folder
+		Git Clone https://github.com/ITSDBPAS/pluralsight-js-dev-env.git
+	
+3)  Create an .EditorConfig file from the root project directory
+4)  Create a package.json file
+5)  Install security check package, npm install -g nsp
+6)  Run security check, npm check
+7)  Install Web Dev Server, Express
+7)  Sharing Work-In-Progress, localtunnel sofware
+    npm install localtunnel -g
+    start your app
+    lt --port 3000
+    // secure web dev set up
+    sign up for ngrok
+    install ngrok
+    install authtoken
+    start your ap
+    ../ngrok http 80
+    // install app to the cloud
+    npm install -g now
+    create start script
+    Type now to run the app
+    // host static files to public url
+    npm install -g surge
+    type surge to run the app
+
+8)  install localtunnel
+    npm install localtunnel -g
+    Run the project, node buildScripts/srcServer.js
+    Open a second terminal session
+    lt --port 3000
+    Paste the generated url in the terminal session to another IE session
